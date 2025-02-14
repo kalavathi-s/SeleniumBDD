@@ -49,7 +49,7 @@ Feature: Todo List Management
     And I change the text to "Walk the cat"
     And I press Enter
     Then the todo item should now be "Walk the cat"
-@fail
+    
   Scenario: Mark all the items as completed by clicking on select all button
     Given I am on the todo list page
     When I add list of task to todo list
